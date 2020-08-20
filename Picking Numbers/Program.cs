@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Picking_Numbers
 {
-    /*    
-    /// Problem:
+    /*       
+    /// Problem: https://www.hackerrank.com/challenges/picking-numbers/problem
     /// Given an array of integers, 
     /// find and print the maximum number of integers you can select from the array
     /// such that the absolute difference between any two of the chosen integers is <= 1.
+    /// Example: If the array is [1,1,2,2,4,4,5,5,5] you can create two subarrays meeting 
+    /// the criterion: [1,1,2,2] and [4,4,5,5,5]. The maximum length subarray has 5 elements.
     */
     class Program
     {
